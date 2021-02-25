@@ -1,3 +1,12 @@
-.avater-bg {
-    background: url(https://avatars.githubusercontent.com/u/79658508?s=200&v=4);
+html { 
+    background: url(https://avatars.githubusercontent.com/u/79658508?s=200&v=4) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.txt {
+    background-color: transparent;
+    filter: invert(100%);
 }
