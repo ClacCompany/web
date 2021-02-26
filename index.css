@@ -6,6 +6,11 @@ html {
     background-size: cover;
 }
 
+.no-select {
+    user-select: none;
+    -ms-user-select: none;
+}
+
 .txt {
     background-color: transparent;
     filter: invert(100%);
